@@ -7,10 +7,10 @@ module.exports = {
     path: path.resolve(__dirname, './dist/'),
     filename: 'bundle.js',
   },
-      plugins: [
-          new HtmlWebpackPlugin({
-              hash: true,
-              filename: './index.js' //relative to root of the application
-          })
-     ]
+  // plugins: [
+  //         new HtmlWebpackPlugin({
+  //             hash: true,
+  //             filename: './index.js' //relative to root of the application
+  //         })
+  //    ]
 };
